@@ -1,10 +1,6 @@
 .container {
     max-width: 800px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
 h1 {
@@ -13,7 +9,6 @@ h1 {
 }
 
 #newTask {
-    display: block;
     height: 35px;
     width: 80%;
     border-radius: 5px;
@@ -24,14 +19,3 @@ h1 {
     border-color: black;
 }
 
-button {
-    height: 35px;
-    margin: auto;
-    background-color: cornsilk;
-    color: coral;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
